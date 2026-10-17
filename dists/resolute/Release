@@ -1,0 +1,28 @@
+Architectures: amd64
+Codename: resolute
+Components: main
+Date: Sat, 17 Oct 2026 13:12:28 +0000
+Description: Panes updates (panes-* packages only)
+Label: Panes
+Origin: Panes
+Suite: resolute
+MD5Sum:
+ e09924c593c007e044f21bee128a6eb2            10274 main/binary-amd64/Packages
+ a606bc609bc1a17e2f7eec4b6e2e93e4             4398 main/binary-amd64/Packages.gz
+ 547900ffb1d64085874966a1f55d86b9             4316 main/binary-amd64/Packages.xz
+ 6d674bcf26fb7a44e5d508e223d3a57d               81 main/binary-amd64/Release
+SHA1:
+ dea743d8b2f02db51b3e063239ec47087b33bd60            10274 main/binary-amd64/Packages
+ 0480b76173753294526048e07bfe4c868979e8f7             4398 main/binary-amd64/Packages.gz
+ 7f8d77292e8f9dd437dc2f06b90a9db65a48c25c             4316 main/binary-amd64/Packages.xz
+ ea779b12617d9cbd8737e6ee805cc62fe19b3b19               81 main/binary-amd64/Release
+SHA256:
+ 0d7e65aab97c6165364e48572e8aeb2386aed52c14859c3b975eb40b47268810            10274 main/binary-amd64/Packages
+ 237f4a23d740da3315faa2aabb923c81ca3c29ca56b3fbcfca0c26974650dec4             4398 main/binary-amd64/Packages.gz
+ b1a83338599e822221bce20c6ff161579eaf165f49d756b261d8b23ded8aaeaf             4316 main/binary-amd64/Packages.xz
+ c1924bd7f12e1bfff0ce48be273b1d975f0cd724666bb852a32c3bdcb819d143               81 main/binary-amd64/Release
+SHA512:
+ 0a5cd826a8f26ddfc77b2d8b20f16c2b7aeb4371f9735143280cc4c67662af85a66ff484b745e0e86ecb01fe0a822939e44fc9937827016b5c8f6c10f00c6eb9            10274 main/binary-amd64/Packages
+ 9f539db61c16e9fe0054cc61ef27511f62533b481297cbe0aa19a632640b72a97ef3868391a98c505b95bb90665029295b4ae082092ac7d2a53d03f5f1c08cc6             4398 main/binary-amd64/Packages.gz
+ 7df8281cc0fa65c06c5ea37d98eb2ff47ab5e347870def5cc5d669ca144d4993cf7be13049df9185c3f311174e61207a93c2cf2b07c7416d1a6f0f7fe53e9e59             4316 main/binary-amd64/Packages.xz
+ e919b19b0f739ec4df1440c7545f81ae5e9e5bb63bf647e3f10977e65aaa9ac5288d0626a3d0f746daf66eae83f0dbf0ed5a249a54f3d5892dd2b45c5072b00f               81 main/binary-amd64/Release

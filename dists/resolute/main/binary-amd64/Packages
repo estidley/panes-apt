@@ -1,0 +1,216 @@
+Package: panes-apps
+Architecture: all
+Version: 0.1.0-1
+Priority: optional
+Section: x11
+Maintainer: Ethan Stidley <ethan@localhost>
+Installed-Size: 69
+Depends: python3, python3-pyqt6 | python3-pyqt5, panes-shell
+Recommends: kcalc, gwenview, kwrite, kolourpaint, spectacle, haruna, flatpak, clamav, clamav-freshclam, ufw, mokutil
+Filename: pool/main/p/panes-apps/panes-apps_0.1.0-1_all.deb
+Size: 14292
+MD5sum: 4f1d23d0a4a9b9505fb03268c0b4fbf4
+SHA1: 60667f67612a3832c4043a4a7229712c29405774
+SHA256: 10d24c13f2eb78d6d1ff67bdd04a85b8a50af5d734d168b953e02bbd72e53113
+SHA512: db546fa0fc55fc57d8cba5aadd9f748cf5d7e31d2316a2ffa8ef1ffe0d3d0163bc515fbf737add7033af42b08e8fbd1a005160f936291ffce75a601b497a8cef
+Homepage: https://github.com/estidley/panes
+Description: Panes inbox apps
+ Calculator, Photos, Notepad, Paint, Snipping Tool and Media Player entries
+ with Panes icons over the matching KDE apps; Pane Defender (virus scans with
+ quarantine, firewall, device security); Pane Store for Flathub apps.
+
+Package: panes-branding
+Architecture: all
+Version: 0.1.0-1
+Priority: optional
+Section: x11
+Maintainer: Ethan Stidley <ethan@localhost>
+Installed-Size: 193
+Recommends: plymouth, plymouth-themes
+Filename: pool/main/p/panes-branding/panes-branding_0.1.0-1_all.deb
+Size: 74944
+MD5sum: 18f78e620f7a0486569ccdf0ef186083
+SHA1: ea65871fd2fe28868346e7c49f3ab3d041d11587
+SHA256: 8253e62c35842f5e9efb957b82c4a0753741312794a2505cd2902b8e5a03533d
+SHA512: 86986dc6aad88a0319b1c7d0398d8ddd6d1e17542c5dbb68279262c6c381f6bc5f55259c8105cbf52540eb6e3c4c1b481a6cd80f0951f1a2c99baf4921004e53
+Homepage: https://github.com/estidley/panes
+Description: Panes boot, sign-in and installer branding
+ Panes boot splash (firmware logo with a ring of dots), wallpaper, sign-in
+ screen background, boot menu name, and installer (Calamares) branding and
+ slideshow. All artwork is original to Panes.
+
+Package: panes-defaults
+Architecture: all
+Version: 0.1.4-1
+Priority: optional
+Section: x11
+Maintainer: Ethan Stidley <ethan@localhost>
+Installed-Size: 33
+Depends: panes-theme (>= 0.1.0), panes-settings (>= 0.1.0), panes-shell (>= 0.1.0)
+Recommends: plasma-discover
+Filename: pool/main/p/panes-defaults/panes-defaults_0.1.4-1_all.deb
+Size: 4216
+MD5sum: 19b94286952141d946c3ad29bc93347a
+SHA1: 73c2c9faed68bdab17348bf0969afd8a944a8445
+SHA256: b3cc1de0c6df320889b2775b7009c9cdc8b65065011d9a965edd7d47b16ed4c0
+SHA512: d705ebead162f3f1053db6149548edbd0469827b2e413049ebda8b020d2a5d43e86d19b5106bf339fec9269683b4d08814b44c50fc60da947f459f10930693b5
+Homepage: https://github.com/estidley/panes
+Description: Panes default shortcuts and session defaults
+ System and skel defaults for Panes: Win11-like keyboard shortcuts
+ (Win, Win+A, Win+N, Win+Tab), Dolphin double-click, Pane Store branding
+ for Discover, and pointers to the Panes look-and-feel.
+ Does not modify Ubuntu apt sources.
+
+Package: panes-explorer
+Architecture: all
+Version: 0.1.0-1
+Priority: optional
+Section: x11
+Maintainer: Ethan Stidley <ethan@localhost>
+Installed-Size: 116
+Depends: python3, python3-pyqt6 | python3-pyqt5, panes-shell, xdg-utils
+Recommends: libglib2.0-bin, udisks2, dolphin, kio-extras, panes-terminal
+Filename: pool/main/p/panes-explorer/panes-explorer_0.1.0-1_all.deb
+Size: 24256
+MD5sum: 26287106641f4eeb17549a72e8ab5586
+SHA1: a9c5eddb4439c9278504ce583dc27f14bf55f4ad
+SHA256: 20a374ee17db4804db4ffa697ebd512bada71918fd09638b8d183aa3aa061e2f
+SHA512: f6924e432fc93fba53e958c9ddf1c9c7c33d815ccffa802e3c14a84667b343de56c6aef593dad01ae1db599871336fbaa350b6e3b62eb9a4e3ca7b510d6f3783
+Homepage: https://github.com/estidley/panes
+Description: Panes File Explorer
+ A file manager that works like File Explorer in Windows 11: tabs, a command
+ bar, a C:\ address bar with breadcrumbs, search, Home, Gallery, Quick access,
+ This PC with drive letters, Network, details and preview panes, and the
+ Windows 11 right-click menu including Copy as path. Dolphin stays installed
+ as "Dolphin (advanced)".
+
+Package: panes-keyring
+Architecture: all
+Version: 2026.10.17-1
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Maintainer: Ethan Stidley <ethan@localhost>
+Installed-Size: 14
+Filename: pool/main/p/panes-keyring/panes-keyring_2026.10.17-1_all.deb
+Size: 1976
+MD5sum: 3f00f6511af3198fcf21bab4aafaf616
+SHA1: 718241b99a5823b48eaa5bfab92eeefa0d36a6ae
+SHA256: e2934adef1b045f17338317c98d51387a3b22a8ec7429eff02e88c3fb580d033
+SHA512: 1bbc253c7cce9158ac04bc568105da11a5ab100d45a90d9fad5a98ee2472e63ec0dff2a2c60f14640b52529e0f8f46309247c661a9b295bfa0e947d90e1a3d2a
+Homepage: https://github.com/estidley/panes
+Description: Panes archive key and update source
+ Installs the Panes archive signing key and the apt source for Panes
+ updates (https://estidley.github.io/panes-apt/), so Panes Update and
+ Pane Store's system updates pick up new panes-* packages. Ubuntu's own
+ package sources are not changed.
+
+Package: panes-settings
+Architecture: all
+Version: 0.3.1-1
+Priority: optional
+Section: x11
+Maintainer: Ethan Stidley <ethan@localhost>
+Installed-Size: 126
+Depends: python3, python3-pyqt6 | python3-pyqt5, qml-module-qtquick2 | qml6-module-qtquick, plasma-workspace, libkscreen-bin | kscreen
+Recommends: panes-theme, network-manager, bluez, accountsservice, packagekit-tools, power-profiles-daemon, flatpak
+Suggests: gamemode, mangohud, orca, panes-wine
+Filename: pool/main/p/panes-settings/panes-settings_0.3.1-1_all.deb
+Size: 28524
+MD5sum: c2006d1c271e4911061bf9cd365b772e
+SHA1: ab250c948403bd87f7a9981f9af1467c02734285
+SHA256: 111fe6623264bc725eec7e67de494613c4f77dcdd5c9869cf7190b61764246e7
+SHA512: 0f48d8997d90ceab0fbd6469ba0b247ac45b9083f0f326f03ec9a9840c06bb4b0bc71171f472a7989b7f2cbcb8b8a9e9ae8dffb4224b1803faa5963e85903641
+Homepage: https://github.com/estidley/panes
+Description: Panes Settings shell (Windows 11-style)
+ Win11-like Settings app with left navigation. Every nav page is real: Bluetooth (BlueZ), Network (NetworkManager),
+ Accounts (AccountsService), Time & language, Gaming, Accessibility,
+ Privacy & security, Panes Update (PackageKit) and Taskbar.
+
+Package: panes-shell
+Architecture: all
+Version: 0.1.2-1
+Priority: optional
+Section: x11
+Maintainer: Ethan Stidley <ethan@localhost>
+Installed-Size: 97
+Depends: python3, python3-pyqt6 | python3-pyqt5, panes-settings, plasma-workspace
+Recommends: wl-clipboard, xclip, udisks2, libnotify-bin, gvfs-backends, gvfs-fuse
+Filename: pool/main/p/panes-shell/panes-shell_0.1.2-1_all.deb
+Size: 20784
+MD5sum: dfa84d324ad58295cc4aa98a45215c1b
+SHA1: ed3168eaa4e3e6665f285e6c32a61c1f5b452c2a
+SHA256: 469e6a9501db2324971d0cc923027f87bc104e3ffa23a14d3d5fb4ca9549808d
+SHA512: aa2ef73709d13b60f565d0b2760cd6b2fbafdd3161ce4445a0e8603ce5c83fe115c56f1fdf3fd4983723e39ed0ece6a9204110a634380f5446047496feebc6de
+Homepage: https://github.com/estidley/panes
+Description: Panes Win11-like shell helpers
+ Desktop context menu helper, Dolphin service menus (Copy as path),
+ Quick Settings flyout (Win+A), and related shell glue.
+
+Package: panes-terminal
+Architecture: all
+Version: 0.1.1-1
+Priority: optional
+Section: utils
+Maintainer: Ethan Stidley <ethan@localhost>
+Installed-Size: 37
+Depends: konsole, python3, python3-pyqt6 | python3-pyqt5, curl, ca-certificates, panes-shell
+Filename: pool/main/p/panes-terminal/panes-terminal_0.1.1-1_all.deb
+Size: 7600
+MD5sum: b4cd0b7b44871bbd1a1ac1570938e9d5
+SHA1: 5871757e3bcbca26e8ed5fb0e16f9733c374ed64
+SHA256: 87751a1a8c7f167764439d27929dc12916ec5f799daf743f4baf209746af36b8
+SHA512: e7d98078007807fcec3ac1cb6a72e886e2babb23c6fc1766a77c1578deebda57337b2a2a1ccb134eb46929b8fc255989f576992588f2e34ee2ac5780ca38da65
+Homepage: https://github.com/estidley/panes
+Description: Panes Terminal (Windows Terminal-style)
+ Tabbed terminal with a profile dropdown (PowerShell, Command shell),
+ a Panes color scheme, a simple Settings window, and C:\ / D: path
+ support in PowerShell 7 and bash. PowerShell 7 comes from Microsoft's
+ signed Linux repo, added as an extra source at first boot.
+
+Package: panes-theme
+Architecture: all
+Version: 0.1.4-1
+Priority: optional
+Section: x11
+Maintainer: Ethan Stidley <ethan@localhost>
+Installed-Size: 81
+Depends: plasma-desktop, plasma-workspace, kwin-x11 | kwin-wayland, fonts-inter, fonts-liberation, fonts-noto-core
+Recommends: breeze, breeze-icon-theme, panes-shell, panes-branding
+Filename: pool/main/p/panes-theme/panes-theme_0.1.4-1_all.deb
+Size: 10348
+MD5sum: 8c9b4df6592a450e470ec2163a316b39
+SHA1: 2e637a290c606670400194ee71502fb33b47952e
+SHA256: 7294767d8390e6dae47d869b88614d64d5bfee0266e7e8eb32ec34091c293525
+SHA512: 01850e43b3916d4481630db39fcf8515de17b1099f8e94bb5a69ce827b56e4116a6bd1ae177b655663a0178b8e0cc03fad6d916ba648bcada5fa6c504894edc7
+Homepage: https://github.com/estidley/panes
+Description: Panes Plasma 6 theme and Win11-like desktop layout
+ Win11-inspired Plasma look-and-feel for Panes: centered taskbar,
+ Kickoff Start-style launcher, color scheme, and KWin effects.
+ Uses only free fonts (Inter, Liberation, Noto). Optional Selawik
+ if installed separately (OFL). No Microsoft proprietary assets.
+
+Package: panes-wine
+Architecture: all
+Version: 0.1.3-1
+Priority: optional
+Section: otherosfs
+Maintainer: Ethan Stidley <ethan@localhost>
+Installed-Size: 50
+Depends: wine64 | wine | winehq-stable, python3, python3-pyqt6 | python3-pyqt5, pkexec | policykit-1, polkitd | policykit-1
+Recommends: winetricks, libnvidia-gl-580:i386 | libnvidia-gl-570:i386 | libnvidia-gl1, mesa-vulkan-drivers, mesa-vulkan-drivers:i386, ca-certificates
+Suggests: dxvk, vkd3d
+Filename: pool/main/p/panes-wine/panes-wine_0.1.3-1_all.deb
+Size: 10092
+MD5sum: e4913f0867186d766c8347d681a8362c
+SHA1: ba8125803dbac9490f29227f9928716b6ba8dd62
+SHA256: 550666ebd7ff3f612700b3ad3ab7c6f02ebf8fe65d1b432d428d654d772b6e70
+SHA512: 5cd457c737d399d0732b30d5e9c06fa853d3670b4a8c011dedad2f7ab33cb2881bfa66de915068aaa4e417262ea85eaa425f6a752212bc5451ee4eb5e06a77ad
+Homepage: https://github.com/estidley/panes
+Description: Panes Wine + WineHQ stable + UAC-style install
+ Adds WineHQ stable as an extra signed apt source on first boot
+ (never editing Ubuntu security pockets), real UAC (polkit-backed elevation), SmartScreen-style Mark-of-the-Web gate, consent for
+ setup.exe/.msi, quiet panes-run, and Start-menu shortcut sync.
+ Prefer winehq-stable over staging for fewer regressions on a
+ desktop remix; staging can be opted in later for testers.
+
